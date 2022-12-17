@@ -59,3 +59,7 @@ def predict(PATH_TO_IMG):
     model = load_model(itos)
     result = caption_image(model,itos,img)
     return result
+
+if __name__ == '__main__':
+    path_to_img = input("Please enter path to the image: ")
+    print(f"OUTPUT is :{predict(path_to_img)[1:-1]}")
