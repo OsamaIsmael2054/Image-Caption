@@ -3,7 +3,8 @@
 Generate Caption for an image
 
 ## Model
-Encoder : a pretrained vgg16 that is used to extract features from a given image
+Encoder : a pretrained vgg16 that is used to extract features from a given image.
+
 Decoder : lstm layer followed by linear layer that is used to generate text
 
 ## Files
